@@ -1,4 +1,5 @@
 {
+  "homepage":"https://NirouNacho.github.io/react-fazt-task-example/",
   "name": "react-tasks-application",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +9,8 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --reposrt-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "react": "^18.2.0",
